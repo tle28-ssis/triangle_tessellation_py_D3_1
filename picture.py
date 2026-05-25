@@ -33,7 +33,11 @@ def draw_picture(width, height):
    
    
     # code for GREEN triangles
- 
+    sg.set_fill_color(colors[1]) # set fill color to green
+    
+    for i in range(5):   # fill_triangle(x1, y1, x2, y2, x3, y3)
+        sg.fill_triangle(1*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 1*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT, 2*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT) 
+        
  
     # code for MAGENTA triangles
     sg.set_fill_color(colors[4])

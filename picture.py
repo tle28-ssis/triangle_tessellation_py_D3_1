@@ -47,7 +47,7 @@ def draw_picture(width, height):
     
     # code for CYAN triangles
     
-     sg.set_fill_color("cyan") # set fill color to red
+    sg.set_fill_color("cyan") # set fill color to red
     
     for i in range(5): 
         sg.fill_triangle(0*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 0*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT, 1*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT) 
